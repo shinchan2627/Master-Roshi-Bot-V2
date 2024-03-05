@@ -50,13 +50,7 @@ async def start(client, message):
             InlineKeyboardButton('⪦ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ⪧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ 𝙎𝙚𝙖𝙧𝙘𝙝 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', [
-            InlineKeyboardButton('ʀ​🇶​ - ɢʀᴏᴜᴘ ⚡', url="https://t.me/+0TBKVN0Z6yM1MTc1"),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ⚡', url='https://t.me/tamcinemas')
-            ],[
-            InlineKeyboardButton('⚡ᴜᴘᴅᴀᴛᴇꜱ', url="https://t.me/+0TBKVN0Z6yM1MTc1"),
-            InlineKeyboardButton('⚡ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/tamcinemas')
-            ])
+            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', url='https://t.me/tamcinemas)
             ],[
             InlineKeyboardButton('🙆🏻 𝙃𝙚𝙡𝙥  🦾', callback_data='help'),
             InlineKeyboardButton('♥️ 𝘼𝙗𝙤𝙪𝙩 ♥️', callback_data='about')
@@ -112,13 +106,7 @@ async def start(client, message):
             InlineKeyboardButton('⪦ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ⪧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ 𝙎𝙚𝙖𝙧𝙘𝙝 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', [
-            InlineKeyboardButton('ʀ​🇶​ - ɢʀᴏᴜᴘ ⚡', url="https://t.me/+0TBKVN0Z6yM1MTc1"),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ⚡', url='https://t.me/tamcinemas')
-            ],[
-            InlineKeyboardButton('⚡ᴜᴘᴅᴀᴛᴇꜱ', url="https://t.me/+0TBKVN0Z6yM1MTc1"),
-            InlineKeyboardButton('⚡ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/tamcinemas')
-            ])
+            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', url='https://t.me/tamcinemas)
 
             ],[
             InlineKeyboardButton('🙆🏻 𝙃𝙚𝙡𝙥  🦾', callback_data='help'),
