@@ -948,6 +948,34 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+    
+
+	
+	
+    elif query.data == "shortlink_info":
+            btn = [[
+            InlineKeyboardButton('ʀ​🇶​ - ɢʀᴏᴜᴘ ⚡', url="https://t.me/+0TBKVN0Z6yM1MTc1"),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ⚡', url='https://t.me/tamcinemas'),
+        ], [
+            InlineKeyboardButton('⚡ᴜᴘᴅᴀᴛᴇꜱ', url="https://t.me/+0TBKVN0Z6yM1MTc1"),
+            InlineKeyboardButton('⚡ʀᴇᴘᴏʀᴛ', url=f"https://telegram.me/{SUPPORT_CHAT}"),
+        ], 
+            InlineKeyboardButton("]|I{•------» ᗪỖŇ'𝓉 𝓽𝓸Ｕ匚ʰ «------•}I|[", callback_data="start"),
+	    	   
+
+            ]]
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+            )
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script.SHORTLINK_INFO),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+    
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
             await query.answer("Gold for not being too smart in front of me 😒", show_alert=True)
@@ -989,7 +1017,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⪦ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ⪧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ 𝙎𝙚𝙖𝙧𝙘𝙝 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', url='https://t.me/tamcinemas')
+            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', callback_data="shortlink_info")
             ],[
             InlineKeyboardButton('🙆🏻 𝙃𝙚𝙡𝙥  🦾', callback_data='help'),
             InlineKeyboardButton('♥️ 𝘼𝙗𝙤𝙪𝙩 ♥️', callback_data='about')
@@ -1025,7 +1053,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/tamcinemas'),
+            InlineKeyboardButton('🔔 Updates 🤖', callback_data="shortlink_info"),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
