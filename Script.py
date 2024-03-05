@@ -17,7 +17,7 @@ Thankyou Thinking About Us. It seems that you really love <a href=https://t.me/t
     REQ_AUTH_TEXT = """Hello {},
 \nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/tamcinemasdubt>MasterRoshi's Support</a>\n\n
     """
-    SHORTLINK_INFO = """
+    SHORTLINK_INFO = ""
     
     TEXT = "sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ"
 
