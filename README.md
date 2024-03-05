@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/4df46facb0cf1552bc364.jpg" alt="𝙈𝙖𝙨𝙩𝙚𝙧 𝙍𝙤𝙨𝙝𝙞 🪶">
 </p>
 <h1 align="center">
-  <b> Lazy Princess BOT </b>
+  <b> Master Roshi BOT </b>
 </h1>
 
 ## ⚡️Features
