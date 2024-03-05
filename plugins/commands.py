@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', url='https://t.me/tamcinemas')
+                InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', callback_data="shortlink_info")
             ],
             [
                 InlineKeyboardButton('🙆🏻 𝙃𝙚𝙡𝙥 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,7 +50,7 @@ async def start(client, message):
             InlineKeyboardButton('⪦ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ⪧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ 𝙎𝙚𝙖𝙧𝙘𝙝 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', url='https://t.me/tamcinemas)
+            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', callback_data="shortlink_info")
             ],[
             InlineKeyboardButton('🙆🏻 𝙃𝙚𝙡𝙥  🦾', callback_data='help'),
             InlineKeyboardButton('♥️ 𝘼𝙗𝙤𝙪𝙩 ♥️', callback_data='about')
@@ -106,7 +106,7 @@ async def start(client, message):
             InlineKeyboardButton('⪦ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ⪧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ 𝙎𝙚𝙖𝙧𝙘𝙝 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', url='https://t.me/tamcinemas)
+            InlineKeyboardButton('🔔 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 🤖', callback_data="shortlink_info")
 
             ],[
             InlineKeyboardButton('🙆🏻 𝙃𝙚𝙡𝙥  🦾', callback_data='help'),
