@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/shinchan2627",
-    "repository": "https://github.com/shinchan2627/Master-Roshi-Bot V2",
+    "repository": "https://github.com/shinchan2627/Master-Roshi-Bot-V2",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
